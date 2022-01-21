@@ -28,3 +28,9 @@ time.sleep(1)
 print(colored('1', 'red'))
 
 time.sleep(1)
+
+print(colored('Jokes on you it didnt end', 'yellow'))
+
+time.sleep(2)
+
+print(colored('Image falling for that smh', 'cyan'))
