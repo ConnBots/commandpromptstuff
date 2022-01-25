@@ -2,14 +2,18 @@
 # Imports 
 
 from termcolor import colored
-from simple_term_menu import TerminalMenu
+from consolemenu import *
+from consolemenu.items import *
 import time 
 import sys
 import random
 
+
 # Intro Options
 
-print(colored('Hi', 'cyan'))
+print("")
+
+print(colored('Welcome', 'cyan'))
 
 time.sleep(1)
 
@@ -36,11 +40,15 @@ if d1a == "A":
 
         
         print(colored('Welcome to the Display Menu. This is currently a work in progress.', 'blue'))
+        time.sleep(1)
+        print(colored('This is just a test, ill work on a better version later', 'yellow'))
 
         # Wrong Code 
         
     else:
         print(colored('Wrong Code, Closing Prompt.', 'red'))
+
+        
 
     
 
@@ -51,6 +59,5 @@ elif d1a == "B":
     print(colored('Ending Program.', 'red'))
     
     
-
 
 
