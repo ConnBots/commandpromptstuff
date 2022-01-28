@@ -1,6 +1,7 @@
 
 # Imports 
 
+from winreg import SetValue
 from termcolor import colored
 from consolemenu import *
 from consolemenu.items import *
@@ -30,11 +31,12 @@ if d1a == "A":
 
     print(colored('Please enter access code.', 'yellow'))
 
-# Correct Code
+# Correct Code 
 
     val = input("Code: ")
     if val == "123":
-        print(colored('Correct Code, Logging in', 'cyan')) 
+        print(colored('Correct Code, Logging in', 'cyan'))
+        
 
         time.sleep(2)
 
@@ -57,7 +59,6 @@ if d1a == "A":
 
 elif d1a == "B":
     print(colored('Ending Program.', 'red'))
-    
     
 
 
